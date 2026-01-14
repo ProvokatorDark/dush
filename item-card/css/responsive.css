@@ -1,0 +1,941 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Для экранов до 1200px (планшеты горизонтально) */
+@media (max-width: 1200px) {
+    /* === Header Footer Section === */
+    .main-container {
+        max-width: 100%;
+    }
+    .header-section .nav-menu {
+        gap: 2.5rem;
+    }
+    .header-section,
+    .footer-section {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .footer-top-box,
+    .footer-bottom-box {
+        width: 100%;
+    }
+
+    /* === Hero Section === */
+    .itemcard-page .hero-content {
+        padding: 2rem 4rem 5rem;
+        width: 100%;
+    }
+
+    .itemcard-page .hero-box,
+    .itemcard-page .item-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .itemcard-page .breadcrumbs {
+        padding: 0 4rem;
+    }
+
+    .itemcard-page .product-main-info,
+    .itemcard-page .product-header,
+    .itemcard-page .product-title,
+    .itemcard-page .product-description,
+    .itemcard-page .buy-section,
+    .itemcard-page .guarantee-card {
+        width: 100%;
+    }
+
+    .itemcard-page .hero-buttons {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .itemcard-page .btn-primary,
+    .itemcard-page .btn-secondary {
+        width: 100%;
+        flex: 1 0 100%;
+    }
+
+    /* === Features Section === */
+    .itemcard-page .features-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .itemcard-page .feature-card {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .itemcard-page .feature-card-highlighted {
+        width: 48%;
+        order: 1;
+        transform: none;
+    }
+
+    .itemcard-page .feature-card-highlighted:hover {
+        transform: translateY(-5px);
+    }
+
+    /* === Equipment Section === */
+    .itemcard-page .equipment-section,
+    .itemcard-page .equipment-bg {
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+    }
+
+    .itemcard-page .equipment-content {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        padding: 4rem;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .itemcard-page .equipment-image {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .itemcard-page .equipment-features {
+        width: 100%;
+        height: auto;
+        min-height: 350px;
+    }
+
+    .itemcard-page .equipment-feature-text,
+    .itemcard-page .equipment-title,
+    .itemcard-page .equipment-description {
+        width: 100%;
+    }
+
+    .itemcard-page .equipment-points {
+        display: none; /* Скрываем точки на планшетах */
+    }
+
+    /* === Advantages Sections === */
+    .itemcard-page .advantages-section,
+    .itemcard-page .advantages-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column !important;
+    }
+
+    .itemcard-page .advantages-content {
+        width: 100%;
+        height: auto;
+        padding: 4rem;
+    }
+
+    .itemcard-page .advantages-header,
+    .itemcard-page .advantages-header-content,
+    .itemcard-page .advantages-title,
+    .itemcard-page .advantages-description,
+    .itemcard-page .advantages-options,
+    .itemcard-page .option-title-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .itemcard-page .product-image-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    .itemcard-page .product-image {
+        height: 400px;
+    }
+
+    /* === Features Gallery Section === */
+    .itemcard-page .features-gallery-section {
+        width: 100%;
+        height: auto;
+        padding: 4rem 2rem;
+    }
+
+    .itemcard-page .gallery-container {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .itemcard-page .gallery-image-item {
+        width: 45%;
+        height: 250px;
+        margin: 0.5rem;
+    }
+
+    /* === Calculator Section === */
+    .itemcard-page .calculator-section {
+        width: 100%;
+        padding: 4rem 2rem;
+    }
+
+    .itemcard-page .calculator-quiz-box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .itemcard-page .quiz-content,
+    .itemcard-page .calculator-image-side {
+        width: 100%;
+        height: auto;
+    }
+
+    .itemcard-page .calculator-image-side {
+        height: 300px;
+        order: -1;
+    }
+
+    .itemcard-page .side-image {
+        object-fit: cover;
+    }
+
+    /* === Similar Projects Section === */
+    .itemcard-page .similar-projects-section {
+        width: 100%;
+        height: auto;
+        padding: 4rem 2rem;
+    }
+
+    .itemcard-page .slider-track {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .itemcard-page .product-card {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    /* === SEO Section === */
+    .itemcard-page .seo-section {
+        width: 100%;
+        padding: 4rem 2rem;
+    }
+
+    .itemcard-page .seo-header,
+    .itemcard-page .seo-header-content,
+    .itemcard-page .seo-text-block,
+    .itemcard-page .seo-text-content,
+    .itemcard-page .seo-main-title,
+    .itemcard-page .seo-subtitle,
+    .itemcard-page .seo-text-content p {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Для экранов до 992px (планшеты вертикально) */
+@media (max-width: 992px) {
+    /* === Header Footer Section === */
+    .header-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 4rem;
+        min-height: auto;
+    }
+
+    .header-section .logo-container {
+        align-self: flex-start;
+    }
+
+    .header-section .right-box {
+        width: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .header-section .nav-menu {
+        margin-right: 0;
+    }
+
+    .footer-section {
+        padding: 3rem 4rem;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-top-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-right-box {
+        width: 100%;
+        justify-content: space-between;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-bottom-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-copyright {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .footer-copyright-text,
+    .footer-disclaimer {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-privacy {
+        text-align: left;
+    }
+
+    /* === Hero Section === */
+    .itemcard-page .hero-content {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .itemcard-page .breadcrumbs {
+        padding: 0 2rem;
+        font-size: 1rem;
+    }
+
+    .itemcard-page .product-title {
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+    }
+
+    .itemcard-page .product-price {
+        font-size: 2rem;
+    }
+
+    .itemcard-page .guarantee-years {
+        font-size: 2.6rem;
+    }
+
+    /* === Features Section === */
+    .itemcard-page .feature-card {
+        width: 90%;
+        margin: 0 auto 2rem;
+    }
+
+    .itemcard-page .feature-card-highlighted {
+        width: 90%;
+    }
+
+    .itemcard-page .feature-image {
+        height: 300px;
+    }
+
+    .itemcard-page .feature-card-highlighted .feature-image {
+        height: 350px;
+    }
+
+    /* === Equipment Section === */
+    .itemcard-page .equipment-content {
+        padding: 2rem;
+    }
+
+    .itemcard-page .equipment-features {
+        padding: 2rem;
+    }
+
+    .itemcard-page .equipment-main-title {
+        font-size: 2.6rem;
+    }
+
+    .itemcard-page .equipment-title {
+        font-size: 1.8rem;
+    }
+
+    /* === Advantages Sections === */
+    .itemcard-page .advantages-content {
+        padding: 2rem;
+    }
+
+    .itemcard-page .advantages-title {
+        font-size: 2.6rem;
+    }
+
+    .itemcard-page .option-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .product-image-box {
+        height: 350px;
+    }
+
+    .itemcard-page .product-image {
+        height: 350px;
+    }
+
+    /* === Features Gallery Section === */
+    .itemcard-page .features-gallery-section {
+        padding: 4rem 1rem;
+    }
+
+    .itemcard-page .gallery-title {
+        font-size: 2.6rem;
+    }
+
+    .itemcard-page .gallery-image-item {
+        width: 48%;
+        height: 200px;
+    }
+
+    /* === Calculator Section === */
+    .itemcard-page .quiz-content {
+        padding: 2rem;
+    }
+
+    .itemcard-page .quiz-option {
+        width: 100%;
+    }
+
+    .itemcard-page .calculator-main-title {
+        font-size: 2.6rem;
+    }
+
+    /* === Similar Projects Section === */
+    .itemcard-page .similar-projects-section {
+        padding: 4rem 1rem;
+    }
+
+    .itemcard-page .projects-title {
+        font-size: 2.6rem;
+    }
+
+    .itemcard-page .product-card {
+        width: 48%;
+    }
+
+    /* === SEO Section === */
+    .itemcard-page .seo-main-title {
+        font-size: 2.6rem;
+    }
+
+    .itemcard-page .seo-subtitle {
+        font-size: 2rem;
+    }
+}
+
+/* Для экранов до 768px (большие телефоны) */
+@media (max-width: 768px) {
+    /* === Header Footer Section === */
+    .header-section,
+    .footer-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .header-section .right-box {
+        flex-wrap: wrap;
+    }
+
+    .header-section .nav-menu {
+        order: 2;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-section .menu-item.active .menu-link::after {
+        bottom: -0.5rem;
+        height: 0.2rem;
+    }
+
+    .header-section .contacts-box {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-menu {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-menu-item {
+        width: auto !important;
+        height: auto;
+    }
+
+    .footer-social {
+        align-self: flex-start;
+    }
+
+    .footer-contacts {
+        width: 100%;
+    }
+
+    .footer-disclaimer {
+        width: 100%;
+        height: auto;
+        line-height: 1.6rem;
+    }
+
+    .footer-right-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    /* === Hero Section === */
+    .itemcard-page .hero-background {
+        border-radius: 1.5rem;
+    }
+
+    .itemcard-page .product-title {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        height: auto;
+    }
+
+    .itemcard-page .product-price {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .guarantee-years {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .guarantee-label {
+        font-size: 1.4rem;
+    }
+
+    .itemcard-page .ellipse {
+        display: none; /* Скрываем эллипсы на мобильных */
+    }
+
+    /* === Features Section === */
+    .itemcard-page .features-section {
+        padding: 2rem 0;
+    }
+
+    .itemcard-page .feature-card {
+        width: 95%;
+    }
+
+    /* === Equipment Section === */
+    .itemcard-page .equipment-main-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .equipment-description {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .itemcard-page .cta-btn {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    /* === Advantages Sections === */
+    .itemcard-page .advantages-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .advantages-description {
+        font-size: 1.4rem;
+    }
+
+    .itemcard-page .option-title {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .product-image-box {
+        height: 300px;
+    }
+
+    /* === Features Gallery Section === */
+    .itemcard-page .gallery-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .gallery-image-item {
+        width: 100%;
+        max-width: 350px;
+        height: 250px;
+        margin: 0.5rem auto;
+    }
+
+    /* === Calculator Section === */
+    .itemcard-page .calculator-main-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .quiz-main-text {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .question-text {
+        font-size: 1.8rem;
+    }
+
+    /* === Similar Projects Section === */
+    .itemcard-page .projects-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .product-card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto 2rem;
+    }
+
+    .itemcard-page .slider-controls {
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* === SEO Section === */
+    .itemcard-page .seo-main-title {
+        font-size: 2.2rem;
+    }
+
+    .itemcard-page .seo-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .seo-text-content p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* Для экранов до 576px (телефоны) */
+@media (max-width: 576px) {
+    /* === Header Footer Section === */
+    .header-section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .header-section .logo-container {
+        width: 12rem;
+        height: 3.5rem;
+    }
+
+    .header-section .nav-menu {
+        gap: 0.5rem;
+    }
+
+    .header-section .menu-link {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .header-section .contacts-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .header-section .phone-box {
+        align-items: flex-start;
+    }
+
+    .header-section .social-icons {
+        align-self: flex-start;
+    }
+
+    .footer-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-menu-link {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .footer-phone-number {
+        font-size: 1.4rem;
+    }
+
+    .footer-working-hours {
+        font-size: 1.1rem;
+    }
+
+    .footer-rights,
+    .footer-disclaimer,
+    .footer-privacy {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    /* === Hero Section === */
+    .itemcard-page .hero-content {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .itemcard-page .breadcrumbs {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .itemcard-page .product-title {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .itemcard-page .product-price {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .product-sku {
+        font-size: 1.1rem;
+    }
+
+    .itemcard-page .product-description {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .itemcard-page .guarantee-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .itemcard-page .guarantee-text {
+        align-items: center;
+    }
+
+    .itemcard-page .guarantee-years,
+    .itemcard-page .guarantee-label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .itemcard-page .guarantee-years {
+        font-size: 2rem;
+    }
+
+    /* === Features Section === */
+    .itemcard-page .feature-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .itemcard-page .feature-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .feature-price {
+        font-size: 1.4rem;
+    }
+
+    .itemcard-page .feature-image {
+        height: 250px;
+    }
+
+    .itemcard-page .feature-list-item {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .itemcard-page .feature-btn {
+        padding: 1.5rem 2rem;
+        font-size: 1.4rem;
+        height: 5rem;
+    }
+
+    /* === Equipment Section === */
+    .itemcard-page .equipment-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .itemcard-page .equipment-main-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .equipment-main-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .itemcard-page .equipment-title {
+        font-size: 1.6rem;
+    }
+
+    /* === Advantages Sections === */
+    .itemcard-page .advantages-header {
+        gap: 3rem;
+    }
+
+    .itemcard-page .advantages-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .option-title-box {
+        gap: 1rem;
+    }
+
+    .itemcard-page .option-title {
+        font-size: 1.4rem;
+    }
+
+    /* === Features Gallery Section === */
+    .itemcard-page .features-gallery-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .gallery-orange-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .itemcard-page .gallery-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .gallery-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .itemcard-page .gallery-image-item {
+        height: 200px;
+    }
+
+    /* === Calculator Section === */
+    .itemcard-page .calculator-header-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .calculator-orange-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .itemcard-page .calculator-main-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .calculator-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .itemcard-page .quiz-top-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .quiz-main-text {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .quiz-bonus-text {
+        font-size: 1.4rem;
+    }
+
+    /* === Similar Projects Section === */
+    .itemcard-page .similar-projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .projects-orange-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .itemcard-page .projects-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .projects-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .itemcard-page .product-card-image {
+        height: 300px;
+    }
+
+    /* === SEO Section === */
+    .itemcard-page .seo-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .itemcard-page .seo-main-title {
+        font-size: 1.8rem;
+    }
+
+    .itemcard-page .seo-subtitle {
+        font-size: 1.6rem;
+    }
+}
+
+/* Для очень маленьких экранов до 375px */
+@media (max-width: 375px) {
+    /* === Header Footer Section === */
+    .header-section .menu-link {
+        font-size: 1.1rem;
+    }
+    .header-section .phone-number {
+        font-size: 1.4rem;
+    }
+    .header-section .working-hours {
+        font-size: 1.1rem;
+    }
+
+    /* === Hero Section === */
+    .itemcard-page .product-title {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .btn-text {
+        font-size: 1.4rem;
+    }
+
+    /* === Features Section === */
+    .itemcard-page .feature-title {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .feature-list-item {
+        font-size: 1.2rem;
+    }
+
+    /* === Calculator Section === */
+    .itemcard-page .question-text {
+        font-size: 1.6rem;
+    }
+
+    .itemcard-page .option-text {
+        font-size: 1.4rem;
+    }
+
+    /* === SEO Section === */
+    .itemcard-page .seo-main-title {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}

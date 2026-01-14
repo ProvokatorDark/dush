@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* === Основной фон страницы === */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 144rem;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    z-index: 1;
+    margin: 0px auto;
+    background: #bdb2b2;
+    gap: 5rem;
+}
+
+
+/* ===== Modal - Product - Main ===== */
+.product-modal {
+    display: flex;
+    flex-direction: column;
+    width: 52rem;
+    /*height: 50.8rem;*/
+    background: rgba(34, 37, 44, 0.52);
+    box-shadow:
+            0.4rem 0.4rem 6rem rgba(12, 13, 14, 0.4),
+            0 0 1.2rem rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(1.6rem);
+    -webkit-backdrop-filter: blur(1.6rem);
+    border-radius: 2.4rem;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3.2rem;
+    height: 7.6rem;
+    background: linear-gradient(45deg, #F54B64 0%, #F78361 100%);
+}
+
+.modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    flex-grow: 1;
+}
+
+.modal-close {
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+}
+
+.close-icon {
+    position: absolute;
+    left: 16.64%;
+    right: 16.64%;
+    top: 16.65%;
+    bottom: 16.64%;
+    background: #FFFFFF;
+}
+
+/* Modal Content */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2.4rem;
+    gap: 2.4rem;
+    width: 52rem;
+    /*height: 43.2rem;*/
+}
+
+.modal-description {
+    width: 47.2rem;
+    height: 4.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Product Features Box */
+.product-features-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 3.2rem;
+    width: 47.2rem;
+    /*height: 13.2rem;*/
+    background: #22252C;
+    box-shadow: 0.4rem 0.4rem 6rem rgba(12, 13, 14, 0.4);
+    border-radius: 1.2rem;
+}
+
+.product-feature {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    width: 44rem;
+    height: 10rem;
+}
+
+.product-image {
+    width: 10rem;
+    height: 10rem;
+    background: #2D343C;
+    box-shadow: 0.4rem 0.4rem 6rem rgba(12, 13, 14, 0.4);
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    width: 32.4rem;
+    height: 4.8rem;
+    flex-grow: 1;
+}
+
+.product-text h3 {
+    width: 32.4rem;
+    height: 4.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Form */
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    width: 47.2rem;
+    /*height: 16.2rem;*/
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    padding: 2.4rem;
+    gap: 1.2rem;
+    width: 47.2rem;
+    height: 6rem;
+    background: #22252C;
+    border-radius: 0.8rem;
+}
+
+.phone-input,.name-input,.email-input,.text-input {
+    width: 14.8rem;
+    height: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.phone-input::placeholder,.name-input::placeholder,.email-input::placeholder,.text-input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3.2rem;
+    gap: 1rem;
+    width: 47.2rem;
+    height: 6rem;
+    background: linear-gradient(45deg, #F54B64 0%, #F78361 100%);
+    box-shadow: 0 0 2rem rgba(247, 119, 98, 0.4);
+    border-radius: 0.8rem;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.privacy-text {
+    width: 47.2rem;
+    height: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #FFFFFF;
+    opacity: 0.64;
+    margin: 0;
+}
+
+.privacy-text a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: #FFFFFF;
+    opacity: 0.64;
+}
+/* Frame 17 */
+.specifications {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0.8rem; /* 8px */
+
+    width: 44rem; /* 440px */
+    height: 17rem; /* 170px */
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Style 6 - Заголовок */
+.style-6 {
+    width: 44rem; /* 440px */
+    height: 2rem; /* 20px */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem; /* 16px */
+    line-height: 2rem; /* 20px */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* List */
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0.8rem; /* 8px */
+
+    width: 44rem; /* 440px */
+    height: 14.2rem; /* 142px */
+
+    border-radius: 1.2rem; /* 12px */
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* ListItem */
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.8rem; /* 8px */
+
+    width: 44rem; /* 440px */
+    height: 1.7rem; /* 17px */
+
+    /* Inside auto layout */
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Ellipse 4 - Маркер списка */
+.ellipse-4 {
+    width: 0.8rem; /* 8px */
+    height: 0.8rem; /* 8px */
+
+    /* Main Orange Gr */
+    background: linear-gradient(45deg, #F54B64 0%, #F78361 100%);
+
+    /* Shine */
+    box-shadow: 0 0 2rem rgba(247, 119, 98, 0.4); /* 20px */
+    border-radius: 50%;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Текст элементов списка */
+.item-text {
+    width: 42.4rem; /* 424px */
+    height: 1.7rem; /* 17px */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem; /* 14px */
+    line-height: 1.7rem; /* 17px */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+/* Порядковые номера для элементов списка (для точного соответствия дизайну) */
+.list .list-item:nth-child(1) {
+    order: 0;
+}
+
+.list .list-item:nth-child(2) {
+    order: 1;
+}
+
+.list .list-item:nth-child(3) {
+    order: 2;
+}
+
+.list .list-item:nth-child(4) {
+    order: 3;
+}
+
+.list .list-item:nth-child(5) {
+    order: 4;
+}
+
+.list .list-item:nth-child(6) {
+    order: 5;
+}

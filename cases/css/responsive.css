@@ -1,0 +1,652 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Для экранов до 1200px (планшеты горизонтально) */
+@media (max-width: 1200px) {
+    /* === Header Footer Section === */
+    .main-container {
+        max-width: 100%;
+    }
+    .header-section .nav-menu {
+        gap: 2.5rem;
+    }
+    .header-section,
+    .footer-section {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .footer-top-box,
+    .footer-bottom-box {
+        width: 100%;
+    }
+
+    /* === Other Section === */
+    .cases-page .cases-hero,
+    .cases-page .work-projects,
+    .cases-page .reviews-section,
+    .cases-page .blog-section {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .cases-page .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .cases-page .project-card {
+        width: 100%;
+        max-width: 40rem;
+    }
+    .cases-page .project-image,
+    .cases-page .project-info,
+    .cases-page .project-title {
+        width: 100%;
+    }
+    .cases-page .reviews-slider,
+    .cases-page .blog-slider {
+        /*overflow-x: auto;*/
+        overflow: hidden;
+        padding-bottom: 2rem;
+        width: 100%;
+    }
+    .cases-page .review-image,
+    .cases-page .blog-card {
+        flex-shrink: 0;
+    }
+    .cases-page .work-projects-container{
+        width: 100%;
+    }
+    .cases-page .reviews-slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .cases-page .review-image {
+        width: 100%;
+    }
+    .cases-page .review-image img{
+        width: 100%;
+    }
+    .cases-page .blog-slider-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 4rem;
+        width: 100%;
+    }
+    .cases-page .blog-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        gap: 2.4rem;
+        width: 100%;
+        height: 6.1rem;
+    }
+    .cases-page .blog-header-content {
+        width: 100%;
+    }
+    .cases-page .blog-main-title {
+        width: auto;
+    }
+    .cases-page .blog-subtitle {
+        width: auto;
+    }
+}
+
+/* Для экранов до 992px (планшеты вертикально) */
+@media (max-width: 992px) {
+    /* === Header Footer Section === */
+    .header-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 4rem;
+        min-height: auto;
+    }
+
+    .header-section .logo-container {
+        align-self: flex-start;
+    }
+
+    .header-section .right-box {
+        width: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .header-section .nav-menu {
+        margin-right: 0;
+    }
+
+    .footer-section {
+        padding: 3rem 4rem;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-top-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-right-box {
+        width: 100%;
+        justify-content: space-between;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-bottom-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-copyright {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .footer-copyright-text,
+
+    .footer-disclaimer {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-privacy {
+        text-align: left;
+    }
+
+    /* === Other Section === */
+    .cases-page .cases-hero {
+        padding: 4rem 4rem;
+        gap: 3rem;
+    }
+
+    .cases-page .hero-content {
+        height: auto;
+    }
+
+    .cases-page .hero-title {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        height: auto;
+    }
+
+    .cases-page .hero-subtitle {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        height: auto;
+    }
+
+    .cases-page .work-projects {
+        padding: 4rem 4rem 8rem;
+    }
+
+    .cases-page .work-projects-container {
+        gap: 3rem;
+    }
+
+    .cases-page .projects-filters {
+        height: auto;
+        justify-content: start;
+    }
+
+    .cases-page .filter-btn {
+        padding: 1.5rem 1.2rem;
+        height: 4rem;
+    }
+
+    .cases-page .filter-btn .filter-text {
+        font-size: 1.4rem;
+    }
+
+    .cases-page .reviews-section,
+    .cases-page .blog-section {
+        padding: 5rem 4rem;
+    }
+
+    .cases-page .reviews-header,
+    .cases-page .blog-header {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .cases-page .reviews-header-line,
+    .cases-page .blog-header-line {
+        /*width: 100%;*/
+        /*height: 0.6rem;*/
+    }
+
+    .cases-page .reviews-header-content,
+    .cases-page .blog-header-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .cases-page .reviews-main-title,
+    .cases-page .blog-main-title {
+        width: 100%;
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        height: auto;
+    }
+
+    .cases-page .reviews-subtitle,
+    .cases-page .blog-subtitle {
+        width: 100%;
+        height: auto;
+    }
+
+    .cases-page .reviews-slider-container,
+    .cases-page .blog-slider-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .cases-page .reviews-slider,
+    .cases-page .blog-slider {
+        width: 100%;
+        height: 50rem;
+        justify-content: flex-start;
+    }
+
+    .cases-page .review-image {
+        width: 25rem;
+        height: 50rem;
+    }
+
+    .cases-page .blog-card {
+        width: 30rem;
+        height: 35rem;
+    }
+
+    .cases-page .blog-card-image {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .cases-page .blog-card-header {
+        width: 30rem;
+    }
+
+    .cases-page .blog-card-title {
+        width: 26rem;
+    }
+
+}
+
+/* Для экранов до 768px (большие телефоны) */
+@media (max-width: 768px) {
+    /* === Header Footer Section === */
+    .header-section,
+    .footer-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .header-section .right-box {
+        flex-wrap: wrap;
+    }
+
+    .header-section .nav-menu {
+        order: 2;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-section .menu-item.active .menu-link::after {
+        bottom: -0.5rem;
+        height: 0.2rem;
+    }
+
+    .header-section .contacts-box {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-menu {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-menu-item {
+        width: auto !important;
+        height: auto;
+    }
+
+    .footer-social {
+        align-self: flex-start;
+    }
+
+    .footer-contacts {
+        width: 100%;
+    }
+
+    .footer-disclaimer {
+        width: 100%;
+        height: auto;
+        line-height: 1.6rem;
+    }
+
+    .footer-right-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    /* === Other Section === */
+    .cases-page .cases-hero,
+    .cases-page .work-projects,
+    .cases-page .reviews-section,
+    .cases-page .blog-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .cases-page .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .cases-page .project-card {
+        height: auto;
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    .cases-page .project-image {
+        height: 40rem;
+    }
+
+    .cases-page .projects-filters {
+        gap: 0.8rem;
+    }
+
+    .cases-page .filter-btn {
+        padding: 1.2rem 1rem;
+        height: 3.6rem;
+    }
+
+    .cases-page .filter-btn .filter-text {
+        font-size: 1.3rem;
+    }
+
+    .cases-page .hero-title {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+    }
+
+    .cases-page .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .cases-page .review-image {
+        width: 20rem;
+        height: 40rem;
+    }
+
+    .cases-page .blog-card {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    .cases-page .blog-card-image {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .cases-page .blog-card-header {
+        width: 25rem;
+    }
+
+    .cases-page .blog-card-title {
+        width: 21rem;
+        font-size: 1.4rem;
+    }
+
+    .cases-page .projects-pagination {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 0.8rem;
+    }
+
+    .cases-page .page-btn {
+        width: 3.6rem;
+        height: 3.6rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .cases-page .page-dots {
+        width: 3.6rem;
+        height: 3.6rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+}
+
+/* Для экранов до 576px (телефоны) */
+@media (max-width: 576px) {
+    /* === Header Footer Section === */
+    .header-section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .header-section .logo-container {
+        width: 12rem;
+        height: 3.5rem;
+    }
+
+    .header-section .nav-menu {
+        gap: 0.5rem;
+    }
+
+    .header-section .menu-link {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .header-section .contacts-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .header-section .phone-box {
+        align-items: flex-start;
+    }
+
+    .header-section .social-icons {
+        align-self: flex-start;
+    }
+
+    .footer-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-menu-link {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .footer-phone-number {
+        font-size: 1.4rem;
+    }
+
+    .footer-working-hours {
+        font-size: 1.1rem;
+    }
+
+    .footer-rights,
+    .footer-disclaimer,
+    .footer-privacy {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+
+
+    /* === Other Section === */
+    .cases-page .cases-hero {
+        padding: 3rem 1.5rem;
+    }
+
+    .cases-page .breadcrumbs {
+        font-size: 1rem;
+        height: auto;
+    }
+
+    .cases-page .hero-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .cases-page .hero-subtitle {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .cases-page .work-projects {
+        padding: 3rem 1.5rem 6rem;
+    }
+
+    .cases-page .projects-filters {
+        gap: 0.6rem;
+    }
+
+    .cases-page .filter-btn {
+        padding: 1rem 0.8rem;
+        height: 3.2rem;
+    }
+
+    .cases-page .filter-btn .filter-text {
+        font-size: 1.2rem;
+    }
+
+    .cases-page .project-image {
+        height: 35rem;
+    }
+
+    .cases-page .project-title {
+        font-size: 1.5rem;
+    }
+
+    .cases-page .reviews-section,
+    .cases-page .blog-section {
+        padding: 4rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .cases-page .reviews-main-title,
+    .cases-page .blog-main-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .cases-page .review-image {
+        width: 18rem;
+        height: 36rem;
+    }
+
+    .cases-page .blog-card {
+        width: 22rem;
+        height: 28rem;
+    }
+
+    .cases-page .blog-card-image {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    .cases-page .blog-card-header {
+        width: 22rem;
+    }
+
+    .cases-page .blog-card-title {
+        width: 18rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        height: auto;
+        min-height: 3.2rem;
+    }
+}
+
+/* Для очень маленьких экранов до 375px */
+@media (max-width: 375px) {
+    /* === Header Footer Section === */
+    .header-section .menu-link {
+        font-size: 1.1rem;
+    }
+    .header-section .phone-number {
+        font-size: 1.4rem;
+    }
+    .header-section .working-hours {
+        font-size: 1.1rem;
+    }
+
+    /* === Other Section === */
+    .cases-page .project-image {
+        height: 30rem;
+    }
+
+    .cases-page .project-title {
+        font-size: 1.4rem;
+    }
+
+    .cases-page .filter-btn .filter-text {
+        font-size: 1.1rem;
+    }
+
+    .cases-page .hero-title {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .cases-page .review-image {
+        width: 16rem;
+        height: 32rem;
+    }
+
+    .cases-page .blog-card {
+        width: 20rem;
+        height: 26rem;
+    }
+
+    .cases-page .blog-card-image {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .cases-page .blog-card-header {
+        width: 20rem;
+    }
+
+    .cases-page .blog-card-title {
+        width: 16rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+

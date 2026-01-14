@@ -1,0 +1,1219 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Для экранов до 1200px (планшеты горизонтально) */
+@media (max-width: 1200px) {
+    /* === Header Footer Section === */
+    .main-container {
+        max-width: 100%;
+    }
+    .header-section .nav-menu {
+        gap: 2.5rem;
+    }
+    .header-section,
+    .footer-section {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .footer-top-box,
+    .footer-bottom-box {
+        width: 100%;
+    }
+
+    /* === Hero Section === */
+    .main-page .hero-section {
+        padding: 4rem 6rem;
+        gap: 4rem;
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .main-page .hero-content-box {
+        width: 100%;
+        padding: 2rem 0;
+        gap: 4rem;
+    }
+
+    .main-page .hero-header-box {
+        width: 100%;
+    }
+
+    .main-page .hero-main-title {
+        width: 100%;
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    .main-page .hero-product-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        margin-top: 2rem;
+    }
+
+    /* === Features Section === */
+    .main-page .features-section {
+        padding: 0 6rem;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .main-page .features-box {
+        width: 32%;
+        min-height: 200px;
+    }
+
+    /* === Catalog Section === */
+    .main-page .catalog-section {
+        padding: 8rem 6rem 4rem;
+    }
+
+    .main-page .catalog-grid {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .main-page .catalog-section-box {
+        width: 23%;
+        height: 250px;
+    }
+
+    .main-page .catalog-image,
+    .main-page .catalog-image img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* === Calculator Section === */
+    .main-page .calculator-section {
+        padding: 4rem 6rem 8rem;
+        height: auto;
+    }
+
+    .main-page .calculator-quiz-box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-page .quiz-content,
+    .main-page .calculator-image-side {
+        width: 100%;
+    }
+
+    .main-page .calculator-image-side {
+        height: 300px;
+        order: -1;
+    }
+
+    /* === Equipment Section === */
+    .main-page .equipment-section {
+        height: auto;
+        min-height: 600px;
+    }
+
+    .main-page .equipment-container {
+        padding: 4rem 6rem;
+    }
+
+    .main-page .equipment-grid {
+        gap: 2rem;
+        height: auto;
+    }
+
+    .main-page .equipment-decorative-line {
+        display: none;
+    }
+
+    /* === Advantages Section === */
+    .main-page .advantages-section {
+        padding: 8rem 6rem 4rem;
+        height: auto;
+    }
+
+    .main-page .advantages-grid {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .main-page .advantage-card {
+        width: 32%;
+        margin-bottom: 1rem;
+    }
+
+    /* === Portfolio Section === */
+    .main-page .portfolio-section {
+        padding: 4rem 6rem 8rem;
+        height: auto;
+    }
+
+    .main-page .portfolio-tabs {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .main-page .portfolio-tab {
+        width: auto !important;
+        padding: 1rem 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-page .portfolio-slider {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-page .portfolio-card {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+
+    /* === Catalog Form Section === */
+    .main-page .catalog-form-section {
+        padding: 4rem 6rem 8rem;
+        height: auto;
+    }
+
+    .main-page .catalog-form-content {
+        padding: 3rem;
+        width: 100%;
+    }
+
+    .main-page .catalog-form-image {
+        display: none;
+    }
+
+    /* === Reviews Section === */
+    .main-page .reviews-section {
+        padding: 8rem 6rem 4rem;
+        height: auto;
+    }
+
+    .main-page .reviews-slider {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-page .review-image {
+        width: 48%;
+        height: 300px;
+        margin-bottom: 1rem;
+    }
+
+    /* === FAQ Section === */
+    .main-page .faq-section {
+        padding: 4rem 6rem 8rem;
+        height: auto;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .main-page .faq-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-page .faq-questions-grid {
+        width: 100%;
+        height: auto;
+    }
+
+    /* === Steps Section === */
+    .main-page .steps-section {
+        padding: 4rem 6rem;
+        height: auto;
+    }
+
+    .main-page .steps-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-page .step-card {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+
+    /* === Blog Section === */
+    .main-page .blog-section {
+        padding: 8rem 6rem 4rem;
+        height: auto;
+    }
+
+    .main-page .blog-slider {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-page .blog-card {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+
+    /* === SEO Section === */
+    .main-page .seo-section {
+        padding: 4rem 6rem;
+        height: auto;
+    }
+
+    .main-page .seo-header,
+    .main-page .seo-text-block,
+    .main-page .seo-text-content,
+    .main-page .seo-main-title,
+    .main-page .seo-subtitle,
+    .main-page .seo-text-content p {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Для экранов до 992px (планшеты вертикально) */
+@media (max-width: 992px) {
+    /* === Header Footer Section === */
+    .header-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 4rem;
+        min-height: auto;
+    }
+
+    .header-section .logo-container {
+        align-self: flex-start;
+    }
+
+    .header-section .right-box {
+        width: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .header-section .nav-menu {
+        margin-right: 0;
+    }
+
+    .footer-section {
+        padding: 3rem 4rem;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-top-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-right-box {
+        width: 100%;
+        justify-content: space-between;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .footer-bottom-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .footer-copyright {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .footer-copyright-text,
+    .footer-disclaimer {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-privacy {
+        text-align: left;
+    }
+
+    /* === Hero Section === */
+    .main-page .hero-section {
+        padding: 3rem 4rem;
+    }
+
+    .main-page .hero-main-title {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+    }
+
+    .main-page .hero-subtitle {
+        font-size: 1.6rem;
+    }
+
+    .main-page .hero-product-container {
+        height: 350px;
+    }
+
+    /* === Features Section === */
+    .main-page .features-section {
+        padding: 0 4rem;
+    }
+
+    .main-page .features-box {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .main-page .features-main-text {
+        font-size: 3.2rem;
+    }
+
+    /* === Catalog Section === */
+    .main-page .catalog-section {
+        padding: 6rem 4rem 3rem;
+    }
+
+    .main-page .catalog-section-box {
+        width: 48%;
+        height: 280px;
+    }
+
+    .main-page .catalog-image,
+    .main-page .catalog-image img {
+        height: 280px;
+    }
+
+    .main-page .catalog-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === Calculator Section === */
+    .main-page .calculator-section {
+        padding: 3rem 4rem 6rem;
+    }
+
+    .main-page .calculator-main-title {
+        font-size: 2.8rem;
+    }
+
+    .main-page .quiz-option {
+        width: 100%;
+    }
+
+    /* === Equipment Section === */
+    .main-page .equipment-section {
+        min-height: 500px;
+    }
+
+    .main-page .equipment-container {
+        padding: 3rem 4rem;
+    }
+
+    .main-page .equipment-grid {
+        flex-direction: column;
+    }
+
+    .main-page .equipment-column {
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-page .equipment-item-content {
+        width: 100%;
+    }
+
+    .main-page .equipment-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === Advantages Section === */
+    .main-page .advantages-section {
+        padding: 6rem 4rem 3rem;
+    }
+
+    .main-page .advantage-card {
+        width: 49%;
+    }
+
+    .main-page .advantage-title {
+        font-size: 1.6rem;
+    }
+
+    /* === Portfolio Section === */
+    .main-page .portfolio-section {
+        padding: 3rem 4rem 6rem;
+    }
+
+    .main-page .portfolio-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .main-page .portfolio-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === Catalog Form Section === */
+    .main-page .catalog-form-section {
+        padding: 3rem 4rem 6rem;
+    }
+
+    .main-page .catalog-form-main-title {
+        font-size: 2.8rem;
+    }
+
+    .main-page .form-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main-page .form-input-container,
+    .main-page .form-submit-button {
+        width: 100%;
+    }
+
+    /* === Reviews Section === */
+    .main-page .reviews-section {
+        padding: 6rem 4rem 3rem;
+    }
+
+    .main-page .review-image {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .main-page .reviews-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === FAQ Section === */
+    .main-page .faq-section {
+        padding: 3rem 4rem 6rem;
+        gap: 3rem;
+    }
+
+    .main-page .faq-column {
+        width: 100%;
+    }
+
+    .main-page .faq-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === Steps Section === */
+    .main-page .steps-section {
+        padding: 3rem 4rem;
+    }
+
+    .main-page .step-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .main-page .steps-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === Blog Section === */
+    .main-page .blog-section {
+        padding: 6rem 4rem 3rem;
+    }
+
+    .main-page .blog-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .main-page .blog-main-title {
+        font-size: 2.8rem;
+    }
+
+    /* === SEO Section === */
+    .main-page .seo-section {
+        padding: 3rem 4rem;
+    }
+
+    .main-page .seo-main-title {
+        font-size: 2.8rem;
+    }
+
+    .main-page .seo-subtitle {
+        font-size: 2rem;
+    }
+}
+
+/* Для экранов до 768px (большие телефоны) */
+@media (max-width: 768px) {
+    /* === Header Footer Section === */
+    .header-section,
+    .footer-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .header-section .right-box {
+        flex-wrap: wrap;
+    }
+
+    .header-section .nav-menu {
+        order: 2;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-section .menu-item.active .menu-link::after {
+        bottom: -0.5rem;
+        height: 0.2rem;
+    }
+
+    .header-section .contacts-box {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-menu {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-menu-item {
+        width: auto !important;
+        height: auto;
+    }
+
+    .footer-social {
+        align-self: flex-start;
+    }
+
+    .footer-contacts {
+        width: 100%;
+    }
+
+    .footer-disclaimer {
+        width: 100%;
+        height: auto;
+        line-height: 1.6rem;
+    }
+
+    .footer-right-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    /* === Hero Section === */
+    .main-page .hero-section {
+        padding: 2rem 2rem;
+    }
+
+    .main-page .hero-main-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .main-page .hero-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .main-page .hero-features p {
+        font-size: 1.3rem;
+    }
+
+    .main-page .hero-product-container {
+        height: 300px;
+    }
+
+    .main-page .hero-cta-button {
+        width: 100%;
+    }
+
+    /* === Features Section === */
+    .main-page .features-section {
+        padding: 0 2rem;
+    }
+
+    .main-page .features-main-text {
+        font-size: 2.8rem;
+    }
+
+    /* === Catalog Section === */
+    .main-page .catalog-section {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .main-page .catalog-header-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .catalog-orange-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .catalog-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .catalog-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .main-page .catalog-section-box {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+    }
+
+    .main-page .catalog-image,
+    .main-page .catalog-image img {
+        height: 300px;
+    }
+
+    /* === Calculator Section === */
+    .main-page .calculator-section {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .main-page .calculator-header-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .calculator-orange-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .calculator-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .calculator-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .main-page .quiz-main-text {
+        font-size: 1.8rem;
+    }
+
+    /* === Equipment Section === */
+    .main-page .equipment-container {
+        padding: 2rem 2rem;
+    }
+
+    .main-page .equipment-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .equipment-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .equipment-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .equipment-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === Advantages Section === */
+    .main-page .advantages-section {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .main-page .advantage-card {
+        width: 100%;
+    }
+
+    /* === Portfolio Section === */
+    .main-page .portfolio-section {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .main-page .portfolio-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .portfolio-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .portfolio-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .portfolio-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .main-page .portfolio-tabs {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 0.5rem;
+    }
+
+    /* === Catalog Form Section === */
+    .main-page .catalog-form-section {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .main-page .catalog-form-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .catalog-form-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .catalog-form-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .catalog-form-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === Reviews Section === */
+    .main-page .reviews-section {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .main-page .reviews-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .reviews-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .reviews-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .reviews-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === FAQ Section === */
+    .main-page .faq-section {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .main-page .faq-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .faq-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .faq-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .faq-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === Steps Section === */
+    .main-page .steps-section {
+        padding: 2rem 2rem;
+    }
+
+    .main-page .steps-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .steps-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .steps-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .steps-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === Blog Section === */
+    .main-page .blog-section {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .main-page .blog-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .blog-header-line {
+        height: 0.6rem;
+        width: 10rem;
+    }
+
+    .main-page .blog-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .blog-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* === SEO Section === */
+    .main-page .seo-section {
+        padding: 2rem 2rem;
+    }
+
+    .main-page .seo-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main-page .seo-main-title {
+        font-size: 2.4rem;
+    }
+
+    .main-page .seo-subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+/* Для экранов до 576px (телефоны) */
+@media (max-width: 576px) {
+    /* === Header Footer Section === */
+    .header-section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .header-section .logo-container {
+        width: 12rem;
+        height: 3.5rem;
+    }
+
+    .header-section .nav-menu {
+        gap: 0.5rem;
+    }
+
+    .header-section .menu-link {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .header-section .contacts-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .header-section .phone-box {
+        align-items: flex-start;
+    }
+
+    .header-section .social-icons {
+        align-self: flex-start;
+    }
+
+    .footer-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-menu-link {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .footer-phone-number {
+        font-size: 1.4rem;
+    }
+
+    .footer-working-hours {
+        font-size: 1.1rem;
+    }
+
+    .footer-rights,
+    .footer-disclaimer,
+    .footer-privacy {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    /* === Hero Section === */
+    .main-page .hero-section {
+        padding: 1.5rem 1rem;
+    }
+
+    .main-page .hero-main-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .main-page .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .main-page .hero-features p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .main-page .hero-button-text {
+        font-size: 1.4rem;
+    }
+
+    .main-page .hero-product-container {
+        height: 250px;
+    }
+
+    /* === Features Section === */
+    .main-page .features-section {
+        padding: 0 1rem;
+    }
+
+    .main-page .features-box {
+        padding: 2rem;
+    }
+
+    .main-page .features-main-text {
+        font-size: 2.4rem;
+    }
+
+    .main-page .features-sub-text {
+        font-size: 1.4rem;
+    }
+
+    /* === Catalog Section === */
+    .main-page .catalog-section {
+        padding: 3rem 1rem 1.5rem;
+    }
+
+    .main-page .catalog-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .catalog-section-box {
+        height: 250px;
+    }
+
+    .main-page .catalog-image,
+    .main-page .catalog-image img {
+        height: 250px;
+    }
+
+    /* === Calculator Section === */
+    .main-page .calculator-section {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .main-page .calculator-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .quiz-main-text {
+        font-size: 1.6rem;
+    }
+
+    .main-page .question-text {
+        font-size: 1.8rem;
+    }
+
+    /* === Equipment Section === */
+    .main-page .equipment-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .main-page .equipment-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .equipment-item-title {
+        font-size: 1.6rem;
+    }
+
+    /* === Advantages Section === */
+    .main-page .advantages-section {
+        padding: 3rem 1rem 1.5rem;
+    }
+
+    .main-page .advantage-title {
+        font-size: 1.5rem;
+    }
+
+    .main-page .advantage-desc {
+        font-size: 1.2rem;
+    }
+
+    /* === Portfolio Section === */
+    .main-page .portfolio-section {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .main-page .portfolio-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .portfolio-card-image {
+        height: 400px;
+    }
+
+    /* === Catalog Form Section === */
+    .main-page .catalog-form-section {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .main-page .catalog-form-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .catalog-form-content {
+        padding: 2rem;
+    }
+
+    /* === Reviews Section === */
+    .main-page .reviews-section {
+        padding: 3rem 1rem 1.5rem;
+    }
+
+    .main-page .reviews-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .review-image {
+        height: 250px;
+    }
+
+    /* === FAQ Section === */
+    .main-page .faq-section {
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .main-page .faq-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .faq-form-box {
+        padding: 2rem;
+    }
+
+    /* === Steps Section === */
+    .main-page .steps-section {
+        padding: 1.5rem 1rem;
+    }
+
+    .main-page .steps-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .step-number {
+        font-size: 8rem;
+    }
+
+    /* === Blog Section === */
+    .main-page .blog-section {
+        padding: 3rem 1rem 1.5rem;
+    }
+
+    .main-page .blog-main-title {
+        font-size: 2rem;
+    }
+
+    .main-page .blog-card-image {
+        height: 300px;
+    }
+
+    /* === SEO Section === */
+    .main-page .seo-section {
+        padding: 1.5rem 1rem;
+    }
+
+    .main-page .seo-main-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .main-page .seo-subtitle {
+        font-size: 1.6rem;
+    }
+
+    .main-page .seo-text-content p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* Для очень маленьких экранов до 375px */
+@media (max-width: 375px) {
+    /* === Header Footer Section === */
+    .header-section .menu-link {
+        font-size: 1.1rem;
+    }
+    .header-section .phone-number {
+        font-size: 1.4rem;
+    }
+    .header-section .working-hours {
+        font-size: 1.1rem;
+    }
+
+    /* === Hero Section === */
+    .main-page .hero-main-title {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .main-page .hero-feature-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* === Features Section === */
+    .main-page .features-main-text {
+        font-size: 2.2rem;
+    }
+
+    /* === Calculator Section === */
+    .main-page .quiz-main-text {
+        font-size: 1.5rem;
+    }
+
+    /* === SEO Section === */
+    .main-page .seo-main-title {
+        font-size: 1.8rem;
+    }
+
+    .main-page .seo-subtitle {
+        font-size: 1.5rem;
+    }
+}

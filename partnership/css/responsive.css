@@ -1,0 +1,517 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Для экранов до 1200px (планшеты горизонтально) */
+@media (max-width: 1200px) {
+    /* === Hero Section === */
+    .partner-page .hero-section {
+        padding: 4rem 6rem;
+        gap: 6rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .partner-page .hero-container {
+        gap: 6rem;
+        flex-wrap: wrap;
+    }
+
+    .partner-page .content-box {
+        width: 100%;
+        height: auto;
+        padding: 4rem 0;
+    }
+
+    .partner-page .image-box {
+        width: 100%;
+        height: 40rem;
+    }
+
+    /* === Benefits Section === */
+    .partner-page .benefits-section {
+        padding: 0 6rem 8rem;
+        gap: 8rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .partner-page .benefits-container {
+        flex-direction: column;
+        gap: 8rem;
+    }
+
+    .partner-page .advantages-grid {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .partner-page .column {
+        width: 100%;
+        height: auto;
+    }
+
+    /* === Catalog Form Section === */
+    .partner-page .catalog-form-section {
+        padding: 4rem 6rem;
+        width: 100%;
+    }
+
+    .partner-page .catalog-form-header,
+    .partner-page .catalog-form-title-box,
+    .partner-page .catalog-form-main-title,
+    .partner-page .catalog-form-subtitle {
+        width: 100%;
+    }
+
+    .partner-page .catalog-form-content {
+        padding: 3rem;
+    }
+
+    /* === Advantages Section === */
+    .partner-page .advantages-section {
+        padding: 8rem 6rem 4rem;
+        width: 100%;
+    }
+
+    .partner-page .advantages-container {
+        width: 100%;
+    }
+
+    .partner-page .advantages-grid {
+        height: auto;
+        justify-content: center;
+    }
+
+    /* === FAQ Section === */
+    .partner-page .faq-section {
+        padding: 4rem 6rem 8rem;
+        gap: 8rem;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .partner-page .faq-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .partner-page .faq-questions-grid {
+        width: 100%;
+        height: auto;
+    }
+
+    /* === SEO Section === */
+    .partner-page .seo-section {
+        padding: 4rem 6rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .partner-page .seo-header,
+    .partner-page .seo-header-content,
+    .partner-page .seo-main-title,
+    .partner-page .seo-text-block,
+    .partner-page .seo-text-header,
+    .partner-page .seo-subtitle,
+    .partner-page .seo-text-content {
+        width: 100%;
+    }
+}
+
+/* Для экранов до 992px (планшеты вертикально) */
+@media (max-width: 992px) {
+    /* === Hero Section === */
+    .partner-page .hero-section {
+        padding: 3rem 4rem;
+        gap: 4rem;
+    }
+
+    .partner-page .hero-container {
+        gap: 4rem;
+    }
+
+    .partner-page .content-box {
+        padding: 3rem 0;
+    }
+
+    .partner-page .header-box {
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .partner-page .hero-title {
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    .partner-page .content-description {
+        margin-bottom: 4rem;
+    }
+
+    .partner-page .image-box {
+        height: 35rem;
+    }
+
+    /* === Catalog Form Section === */
+    .partner-page .catalog-form-section {
+        padding: 3rem 4rem;
+    }
+
+    .partner-page .catalog-form-content {
+        padding-right: 30rem;
+    }
+
+    .partner-page .catalog-form-image {
+        width: 25rem;
+        height: 32rem;
+        right: 3rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* === Advantages Section === */
+    .partner-page .advantages-section {
+        padding: 6rem 4rem 3rem;
+    }
+
+    .partner-page .advantage-card {
+        width: calc(50% - 1rem);
+    }
+
+    /* === FAQ Section === */
+    .partner-page .faq-section {
+        padding: 3rem 4rem 6rem;
+        gap: 6rem;
+    }
+
+    .partner-page .faq-questions-grid {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .partner-page .faq-column {
+        width: 100%;
+    }
+}
+
+/* Для экранов до 768px (большие телефоны) */
+@media (max-width: 768px) {
+    /* === Hero Section === */
+    .partner-page .hero-section {
+        padding: 2rem 2rem;
+        gap: 3rem;
+    }
+
+    .partner-page .breadcrumbs {
+        font-size: 1rem;
+    }
+
+    .partner-page .hero-title {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        height: auto;
+    }
+
+    .partner-page .description-main {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .partner-page .description-secondary {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .partner-page .cta-button {
+        width: 100%;
+        max-width: 28.1rem;
+    }
+
+    .partner-page .image-box {
+        height: 30rem;
+    }
+
+    /* === Benefits Section === */
+    .partner-page .benefits-section {
+        padding: 0 2rem 6rem;
+        gap: 6rem;
+    }
+
+    .partner-page .left-content,
+    .partner-page .title-block,
+    .partner-page .title-content,
+    .partner-page .main-title,
+    .partner-page .sub-title,
+    .partner-page .contact-card {
+        width: 100%;
+    }
+
+    .partner-page .main-title {
+        font-size: 2.8rem;
+    }
+
+    .partner-page .advantage-item {
+        width: 100%;
+    }
+
+    /* === Catalog Form Section === */
+    .partner-page .catalog-form-section {
+        padding: 2rem 2rem;
+    }
+
+    .partner-page .catalog-form-main-title {
+        font-size: 2.8rem;
+    }
+
+    .partner-page .catalog-form-content {
+        padding: 2rem;
+        padding-right: 25rem;
+    }
+
+    .partner-page .catalog-form-image {
+        width: 20rem;
+        height: 26rem;
+        right: 2rem;
+    }
+
+    .partner-page .form-row {
+        flex-direction: column;
+        gap: 1.5rem;
+        height: auto;
+    }
+
+    .partner-page .form-input-container,
+    .partner-page .form-submit-button {
+        width: 100%;
+    }
+
+    /* === Advantages Section === */
+    .partner-page .advantages-section {
+        padding: 4rem 2rem 2rem;
+    }
+
+    .partner-page .advantages-grid {
+        gap: 1.5rem;
+    }
+
+    .partner-page .advantage-card {
+        width: 100%;
+    }
+
+    /* === FAQ Section === */
+    .partner-page .faq-section {
+        padding: 2rem 2rem 4rem;
+        gap: 4rem;
+    }
+
+    .partner-page .faq-main-title {
+        font-size: 2.8rem;
+    }
+
+    .partner-page .faq-form-box {
+        width: 100%;
+    }
+
+    .partner-page .faq-phone-input-container,
+    .partner-page .faq-submit-button {
+        width: 100%;
+    }
+
+    /* === SEO Section === */
+    .partner-page .seo-section {
+        padding: 2rem 2rem;
+        gap: 3rem;
+    }
+
+    .partner-page .seo-main-title {
+        font-size: 2.8rem;
+    }
+
+    .partner-page .seo-subtitle {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+}
+
+/* Для экранов до 576px (телефоны) */
+@media (max-width: 576px) {
+    /* === Hero Section === */
+    .partner-page .hero-section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .partner-page .hero-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .partner-page .content-description {
+        margin-bottom: 3rem;
+    }
+
+    .partner-page .image-box {
+        height: 25rem;
+    }
+
+    /* === Benefits Section === */
+    .partner-page .benefits-section {
+        padding: 0 1.5rem 4rem;
+        gap: 4rem;
+    }
+
+    .partner-page .main-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .partner-page .advantage-heading {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .partner-page .advantage-description {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    /* === Catalog Form Section === */
+    .partner-page .catalog-form-section {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .partner-page .catalog-form-main-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .partner-page .catalog-form-content {
+        padding-right: 2rem;
+    }
+
+    .partner-page .catalog-form-image {
+        display: none;
+    }
+
+    .partner-page .catalog-form-info-title {
+        font-size: 1.8rem;
+    }
+
+    .partner-page .catalog-form-info-desc {
+        font-size: 1.4rem;
+    }
+
+    /* === Advantages Section === */
+    .partner-page .advantages-section {
+        padding: 3rem 1.5rem 1.5rem;
+    }
+
+    .partner-page .advantage-card {
+        padding: 1.5rem;
+    }
+
+    .partner-page .advantage-title {
+        font-size: 1.6rem;
+    }
+
+    .partner-page .advantage-desc {
+        font-size: 1.3rem;
+    }
+
+    /* === FAQ Section === */
+    .partner-page .faq-section {
+        padding: 1.5rem 1.5rem 3rem;
+        gap: 3rem;
+    }
+
+    .partner-page .faq-main-title {
+        font-size: 2.4rem;
+    }
+
+    .partner-page .faq-question-title {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .partner-page .faq-question-answer {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    /* === SEO Section === */
+    .partner-page .seo-section {
+        padding: 1.5rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .partner-page .seo-main-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .partner-page .seo-subtitle {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .partner-page .seo-text-content p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+}
+
+/* Для очень маленьких экранов до 375px */
+@media (max-width: 375px) {
+    /* === Hero Section === */
+    .partner-page .hero-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .partner-page .cta-button {
+        font-size: 1.4rem;
+        padding: 1.5rem 2rem;
+        height: 5rem;
+    }
+
+    .partner-page .image-box {
+        height: 20rem;
+    }
+
+    /* === Benefits Section === */
+    .partner-page .main-title {
+        font-size: 2rem;
+    }
+
+    .partner-page .advantage-item {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* === Advantages Section === */
+    .partner-page .advantage-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        height: auto;
+    }
+
+    .partner-page .advantage-text {
+        align-items: center;
+    }
+
+    /* === FAQ Section === */
+    .partner-page .faq-question-point {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .partner-page .faq-question-text {
+        align-items: center;
+        text-align: center;
+    }
+}
